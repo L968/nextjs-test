@@ -9,7 +9,9 @@ function Home() {
             <h1>Home</h1>
             <p>Contador: {counter}</p>
             <button onClick={() => setCounter(counter => counter + 1)}>Adicionar</button>
-            <Link href="/sobre">Sobre</Link>
+            <Link href="/sobre">
+                <a>Sobre</a>
+            </Link>
         </div>
     );
 }
